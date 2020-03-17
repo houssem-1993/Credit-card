@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.credit-card{
+  background-color: #042848;
+  color: orangered;
+  width:420px;
+  height: 320px;
+  padding: 0px 5px;
+  border-radius: 12px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.title{
+  text-align: right;
+  padding:5px;
+}
+.text{
+  flex:1;
+  padding-right:8px;
+}
+.card-number{
+color: #c5b361;
+}
+.date-exp{
+  text-align: right;
+  color: #c5b361;
+  padding-right: 30px;
+}
+.card-holder{
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
